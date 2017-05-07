@@ -5,21 +5,23 @@ A demo C++ terminal application on how to use OpenCV template matching
 OpenCV (>2.8) http://opencv.org/
 
 # Installation (Linux)
+```
 cmake .
 make 
+```
 
 # Usage
 The program can be run in "single" or "batch" mode
 
 For "batch mode" open a terminal and run 
 
-./tracer "x.png"
+`./tracer "x.png"`
 
 where "x" is a number between 0 and 30 (according to the image samples in the folder "images") and specifies the template file for template matching. Use the right mouse button mark the center of the template and use the left mouse button to start the actual template matching procedure. After running through all the images, a file called "positions.txt" is created, listing the x-y positions of all matched images in the batch.
 
 For "single mode" run 
 
-./tracer "x.png" "y.png"
+`./tracer "x.png" "y.png"`
 
 where "y" is now the target image.
 
