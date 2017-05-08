@@ -1,5 +1,7 @@
 # template-matching-demo
-A demo C++ terminal application on how to use OpenCV template matching 
+A demo C++ application on how to use OpenCV template matching 
+
+<img src="screenshot.png" alt="" width="400">
 
 # Requirements
 OpenCV (>2.8) http://opencv.org/
